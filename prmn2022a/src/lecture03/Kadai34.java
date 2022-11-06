@@ -1,2 +1,17 @@
-package lecture03;public class Kadai34 {
+package lecture03;
+
+import java.util.ArrayList;
+
+public class Kadai34 {
+    public static void main(String[] args) {
+        ArrayList<Vegetable> vegetables = new ArrayList<>();
+        vegetables.add(new Vegetable("にんじん",117));
+        vegetables.add(new Vegetable("たまねぎ",120));
+        vegetables.add(new Vegetable("じゃがいも",154));
+
+        for(Vegetable vegetable : vegetables){
+            vegetable.print();
+        }
+    }
+
 }
